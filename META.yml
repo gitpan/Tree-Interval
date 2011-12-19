@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Tree-Interval
-version:            0.3.1
+version:            0.3.2
 abstract:           ~
 author:
     - Greg Banks <gnb@fastmail.fm>
@@ -9,9 +9,9 @@ distribution_type:  module
 configure_requires:
     ExtUtils::MakeMaker:  0
 build_requires:
-    Test::Unit:  0
+    Test::Unit:  0.25
 requires:
-    Test::Unit:  0
+    Test::Unit:  0.25
 no_index:
     directory:
         - t
